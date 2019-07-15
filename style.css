@@ -1,0 +1,133 @@
+/* *{
+  box-sizing: border-box; */
+
+h1, p, h3, a {
+   color: #4b4b4b;
+  font-family: 'Work Sans', sans-serif;
+ 
+}
+.background-1 {
+  background-image:url(https://images.unsplash.com/photo-1492627223639-6e980361988c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80);
+  background-position: center;
+  background-size: cover;
+}
+  
+}
+.background-2{
+  background-color: #fffff;
+}
+.logo > h1 {
+  width: 120px;
+  padding: 20px;
+}
+
+.container {
+   background-color: rgba(0,0,0,0);
+   padding: 64px;
+   width: 50%;
+}
+.container-2 {
+   background-color: rgba(0,0,0,0);
+   padding: 64px;
+   width: 50%;
+   margin-top:-140px;
+}
+  
+.title {
+  font-size: 48x;
+  font-weight: 300;
+}
+
+.description {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+html, body {
+  min-height: 100%;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 16px 0 8px ;
+}
+a {
+  color: #fabb19;
+  text-decoration: none;
+}
+a::after {
+  content: 'READ MORE'
+}
+a:hover {
+  color: #cc9405;
+}
+a:active {
+  color: #8a6810;
+}
+
+/* images link from unsplash*/
+
+.image {
+  height: 240px;  
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.image-1 {
+  background-image: url('https://images.unsplash.com/photo-1559650656-5d1d361ad10e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80');
+}
+.image-2 {
+  background-image: url('https://images.unsplash.com/photo-1499175860898-fa38bee4bcdd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1087&q=80');
+}
+.image-3 {
+  background-image: url('https://images.unsplash.com/photo-1541462608143-67571c6738dd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80');
+}
+.image-4 {
+  background-image: url('https://images.unsplash.com/photo-1541195942158-ccbd892c4673?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80');
+}
+.image-5 {
+  background-image: url('https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2767&q=80');
+}
+.image-6 {
+  background-image: url('https://images.unsplash.com/photo-1551651653-c5186a1fbba2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2773&q=80');
+}
+
+
+/* Start writing your code here */
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.product-item {
+  flex-grow: 1;
+  flex-basis: 200px;
+ 
+}
+.image {
+    margin: 10px;
+}
+
+.works {
+  margin: 20px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  
+}
+.menu {
+    display: flex;
+  flex-direction: row;
+  
+}
+p {
+  margin-right: 20px;
+}
